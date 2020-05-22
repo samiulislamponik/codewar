@@ -17,7 +17,20 @@ def getCount(inputStr):
 
 ```
 
-` Here sum() is used for adding the count value.
+` Here sum() is used for adding the count value.`
+
+
+## [Highest and Lowest](https://github.com/samiulislamponik/codewar/blob/master/7kyu/highest_and_lowest.py " Problem-2 ")
+
+```python
+
+def high_and_low(numbers):
+    n = map(int, numbers.split(' '))
+    return "{} {}".format(max(n), min(n))
+
+```
+
+` Here max(), min() and formatted string concepts are being used.`
 
 
 
