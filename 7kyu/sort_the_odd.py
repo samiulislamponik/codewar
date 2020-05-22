@@ -1,3 +1,6 @@
+
+
+
 """
 You have an array of numbers.
 Your task is to sort ascending odd numbers but even numbers must be on their places.
@@ -29,4 +32,5 @@ def sort_array(source_array):
 
 
 print(sort_array([5, 3, 2, 8, 1, 4]))
+
 
