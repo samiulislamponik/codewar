@@ -1,5 +1,5 @@
-# In this assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
+# In this assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
 
 def high_and_low(numbers):
 
@@ -17,7 +17,5 @@ def high_and_low(numbers):
     output = f'{max} {min}'
     return output
 
-
 print(high_and_low("1 2 -3 4 5"))
-
 
