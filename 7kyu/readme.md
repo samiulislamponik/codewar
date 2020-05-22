@@ -33,4 +33,18 @@ def high_and_low(numbers):
 ` Here max(), min() and formatted string concepts are being used.`
 
 
+## [Sort the odd](https://github.com/samiulislamponik/codewar/blob/master/7kyu/sort_the_odd.py " Problem-3 ")
+
+```python
+
+def sort_array(arr):
+  odds = sorted((x for x in arr if x%2 != 0), reverse=True)
+  return [x if x%2==0 else odds.pop() for x in arr]
+
+
+```
+
+` Here list comprehension, sorted() and pop() concepts are being used.`
+
+
 
