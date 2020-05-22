@@ -5,7 +5,7 @@
 - New Concept Details.
 - And It will be continued untile new Rank up.
 
-# Problems Discussion Starts From Here.
+# Problems Discussion Starts From Here:
 ** Here I am adding those problems wich I have solved in codewar and it's randomly pickup **
 
 ## [Vowel Count](https://github.com/samiulislamponik/codewar/blob/master/7kyu/vowel_count.py " Problem-1 ")
