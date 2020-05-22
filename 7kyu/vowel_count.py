@@ -7,3 +7,5 @@ def getCount(inputStr):
 
 
 print(getCount("abcdeeiuf"))
+
+
