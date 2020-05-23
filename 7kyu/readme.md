@@ -67,3 +67,25 @@ def sum_dig_pow(a, b):
 
 
 
+## [My Anagrams](https://github.com/samiulislamponik/codewar/blob/master/7kyu/anagrams.py "Problem-5")
+
+```python
+
+Solve1:
+
+def anagrams(word, words): return [item for item in words if sorted(item)==sorted(word)]
+
+Solve2:
+
+def anagrams(word, words):
+    return filter(lambda x: sorted(word) == sorted(x), words)
+
+```
+
+` Here filter(), sorted(), list comprehension and lambda expression concepts are being used. `
+
+##### [Problem link](https://www.codewars.com/kata/523a86aa4230ebb5420001e1/python "codewar problem")
+
+
+
+
