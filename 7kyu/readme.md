@@ -3,6 +3,7 @@
 - First Problem Name with my solution file link.
 - Alternative code or Best Practice code.
 - New Concept Details.
+- Problem link
 - And It will be continued untile new Rank up.
 
 # Problems Discussion Starts From Here:
@@ -47,16 +48,22 @@ def sort_array(arr):
 ` Here list comprehension, sorted() and pop() concepts are being used.`
 
 
-## []()
+## [Eureka](https://github.com/samiulislamponik/codewar/blob/master/7kyu/eureka.py "Problem-4")
 
 ```python
 
+def filter_func(a):
+    return sum(int(d) ** (i+1) for i, d in enumerate(str(a))) == a
 
+def sum_dig_pow(a, b):
+    return filter(filter_func, range(a, b+1))
 
 
 ```
 
-`       `
+` Here filter(), sum() and enumerate() concepts are being used. `
+
+###[Problem link](https://www.codewars.com/kata/5626b561280a42ecc50000d1/python "codewar problem")
 
 
 
