@@ -88,7 +88,7 @@ def anagrams(word, words):
 
 
 
-## [](https://github.com/samiulislamponik/codewar/blob/master/7kyu/narcissistic.py "Problem-6")
+## [Narcissistic Number](https://github.com/samiulislamponik/codewar/blob/master/7kyu/narcissistic.py "Problem-6")
 
 
 ```python
@@ -98,20 +98,11 @@ Solve1:
 def narcissistic(value):
     return value == sum(int(x) ** len(str(value)) for x in str(value))
 
-Solve2:
-
-def narcissistic( value ):
-    value = str(value)
-    size = len(value)
-    sum = 0
-    for i in value:
-        sum += int(i) ** size
-    return sum == int(value)
-
-
 ```
 
-[Problem link]()
+` Here sum() and len() concepts are being used. `
+
+##### [Problem link](https://www.codewars.com/kata/5287e858c6b5a9678200083c/python)
 
 
 
