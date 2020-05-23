@@ -88,4 +88,31 @@ def anagrams(word, words):
 
 
 
+## [](https://github.com/samiulislamponik/codewar/blob/master/7kyu/narcissistic.py "Problem-6")
+
+
+```python
+
+Solve1:
+
+def narcissistic(value):
+    return value == sum(int(x) ** len(str(value)) for x in str(value))
+
+Solve2:
+
+def narcissistic( value ):
+    value = str(value)
+    size = len(value)
+    sum = 0
+    for i in value:
+        sum += int(i) ** size
+    return sum == int(value)
+
+
+```
+
+[Problem link]()
+
+
+
 
