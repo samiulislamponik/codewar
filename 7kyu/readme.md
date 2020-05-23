@@ -63,7 +63,7 @@ def sum_dig_pow(a, b):
 
 ` Here filter(), sum() and enumerate() concepts are being used. `
 
-### [Problem link](https://www.codewars.com/kata/5626b561280a42ecc50000d1/python "codewar problem")
+##### [Problem link](https://www.codewars.com/kata/5626b561280a42ecc50000d1/python "codewar problem")
 
 
 
