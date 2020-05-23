@@ -1,6 +1,6 @@
-# Formatting Details:
+## Formatting Details:
 
-- First Problem Name with file link.
+- First Problem Name with my solution file link.
 - Alternative code or Best Practice code.
 - New Concept Details.
 - And It will be continued untile new Rank up.
@@ -45,6 +45,18 @@ def sort_array(arr):
 ```
 
 ` Here list comprehension, sorted() and pop() concepts are being used.`
+
+
+## []()
+
+```python
+
+
+
+
+```
+
+`       `
 
 
 
