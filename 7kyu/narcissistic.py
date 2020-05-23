@@ -1,3 +1,4 @@
+
 def narcissistic(value):
     if value == int(value):
         new_str = str(value)
@@ -17,3 +18,5 @@ def narcissistic(value):
 
 
 print(narcissistic("32"))
+
+
