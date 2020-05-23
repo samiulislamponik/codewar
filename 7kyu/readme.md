@@ -102,7 +102,7 @@ def narcissistic(value):
 
 ` Here sum() and len() concepts are being used. `
 
-##### [Problem link](https://www.codewars.com/kata/5287e858c6b5a9678200083c/python)
+##### [Problem link](https://www.codewars.com/kata/5287e858c6b5a9678200083c/python "codewar problem")
 
 
 
