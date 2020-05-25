@@ -107,7 +107,7 @@ def narcissistic(value):
 
 
 
-## [Moving Zeros To The End](https://github.com/samiulislamponik/codewar/blob/master/7kyu/narcissistic.py "Problem-6")
+## [Moving Zeros To The End](https://github.com/samiulislamponik/codewar/blob/master/7kyu/zeros.py "Problem-7")
 
 
 ```python
