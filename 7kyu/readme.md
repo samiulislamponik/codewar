@@ -21,6 +21,9 @@ def getCount(inputStr):
 ` Here sum() is used for adding the count value.`
 
 
+##### [Problem link](https://www.codewars.com/kata/54ff3102c1bad923760001f3/python "codewar problem")
+
+
 ## [Highest and Lowest](https://github.com/samiulislamponik/codewar/blob/master/7kyu/highest_and_lowest.py " Problem-2 ")
 
 ```python
@@ -32,6 +35,10 @@ def high_and_low(numbers):
 ```
 
 ` Here max(), min() and formatted string concepts are being used.`
+
+
+
+##### [Problem link](https://www.codewars.com/kata/554b4ac871d6813a03000035/python "codewar problem")
 
 
 ## [Sort the odd](https://github.com/samiulislamponik/codewar/blob/master/7kyu/sort_the_odd.py " Problem-3 ")
@@ -46,6 +53,9 @@ def sort_array(arr):
 ```
 
 ` Here list comprehension, sorted() and pop() concepts are being used.`
+
+
+##### [Problem link](https://www.codewars.com/kata/578aa45ee9fd15ff4600090d/python "codewar problem")
 
 
 ## [Eureka](https://github.com/samiulislamponik/codewar/blob/master/7kyu/eureka.py "Problem-4")
@@ -134,7 +144,7 @@ def move_zeros(array):
 
 
 
-                                                        **The End**
+                                                     **The End**
 
 
 
