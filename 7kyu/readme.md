@@ -2,7 +2,7 @@
 
 - First Problem Name with my solution file link.
 - Alternative code or Best Practice code.
-- New Concept Details.
+- Concept That are Used.
 - Problem link
 - And It will be continued untile new Rank up.
 
