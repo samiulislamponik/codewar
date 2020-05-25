@@ -107,3 +107,36 @@ def narcissistic(value):
 
 
 
+## [Moving Zeros To The End](https://github.com/samiulislamponik/codewar/blob/master/7kyu/narcissistic.py "Problem-6")
+
+
+```python
+
+Solve1:
+
+def move_zeros(arr):
+    l = [i for i in arr if isinstance(i, bool) or i!=0]
+    return l+[0]*(len(arr)-len(l))
+    
+Solve2:
+
+def move_zeros(array):
+    return sorted(array, key=lambda x: x == 0 and x is not False)
+    
+
+```
+
+` Here sorted()  and isinstance() and lamda expresion concepts are being used. `
+
+
+##### [Problem link](https://www.codewars.com/kata/52597aa56021e91c93000cb0/python "codewar problem")
+
+
+
+
+                                                        **The End**
+
+
+
+
+
