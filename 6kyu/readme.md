@@ -32,7 +32,7 @@ def generate_hashtag(s):
 
 ```
 
-` Here strip(), title(), and replace() concepts are being used. `
+` Here [strip()](https://www.w3schools.com/python/ref_string_strip.asp) , title(), and replace() concepts are being used. `
 
 
 ##### [Problem link](https://www.codewars.com/kata/52449b062fb80683ec000024/python 'Codewar Problem')
