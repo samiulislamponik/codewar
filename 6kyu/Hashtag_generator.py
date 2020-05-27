@@ -1,3 +1,4 @@
+
 def generate_hashtag(s):
     if not s:
         return False
@@ -15,3 +16,5 @@ def generate_hashtag(s):
 
 
 print(generate_hashtag(''))
+
+
