@@ -4,7 +4,7 @@
 - Alternative code or Best Practice code.
 - Concept That are Used.
 - Problem link
-- And It will be continued untile new Rank up.
+- And It will be continued untile 6kyu.
 
 # Problems Discussion Starts From Here:
 ** Here I am adding those problems wich I have solved in codewar and it's randomly pickup **
