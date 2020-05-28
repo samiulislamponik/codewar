@@ -39,7 +39,7 @@ def generate_hashtag(s):
 
 
 
-## [Highest Scoring Word](https://github.com/samiulislamponik/codewar/blob/master/6kyu/Hashtag_generator.py 'Problem-2')
+## [Highest Scoring Word](https://github.com/samiulislamponik/codewar/blob/master/6kyu/Highest_scoring_word.py 'Problem-2')
 
 ```python
 Solve1:
@@ -61,7 +61,7 @@ def high(x):
 
 ```
 
-` Here strip(), title(), and replace() concepts are being used. `
+` Here split(), max(), sum(), index() and lamda expresion concepts are being used. `
 
 
 ##### [Problem link](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/python 'Codewar Problem')
