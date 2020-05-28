@@ -38,3 +38,33 @@ def generate_hashtag(s):
 ##### [Problem link](https://www.codewars.com/kata/52449b062fb80683ec000024/python 'Codewar Problem')
 
 
+
+## [Highest Scoring Word](https://github.com/samiulislamponik/codewar/blob/master/6kyu/Hashtag_generator.py 'Problem-2')
+
+```python
+Solve1:
+
+def high(x):
+    return max(x.split(), key=lambda k: sum(ord(c) - 96 for c in k))
+
+  
+ Solve2:
+ 
+ def high(x):
+    words=x.split(' ')
+    list = []
+    for i in words:
+        scores = [sum([ord(char) - 96 for char in i])]
+        list.append(scores)
+    return words[list.index(max(list))]
+
+
+```
+
+` Here strip(), title(), and replace() concepts are being used. `
+
+
+##### [Problem link](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/python 'Codewar Problem')
+
+
+
