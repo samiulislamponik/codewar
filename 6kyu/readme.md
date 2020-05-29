@@ -67,3 +67,36 @@ def high(x):
 
 
 
+
+## [RGB To Hex](https://github.com/samiulislamponik/codewar/blob/master/6kyu/RGB_To_Hex.py 'Problem-3')
+
+```python
+Solve1:
+
+def rgb(r, g, b):
+    round = lambda x: min(255, max(x, 0))
+    return ("{:02X}" * 3).format(round(r), round(g), round(b))
+
+  
+ Solve2:
+ 
+ def limit(num):
+    if num < 0:
+        return 0
+    if num > 255:
+        return 255
+    return num
+
+def rgb(r, g, b):
+    return "{:02X}{:02X}{:02X}".format(limit(r), limit(g), limit(b))
+
+```
+
+` Here max(), min(), format() and lamda expresion concepts are being used. `
+
+
+##### [Problem link](https://www.codewars.com/kata/513e08acc600c94f01000001/python 'Codewar Problem')
+
+
+
+
