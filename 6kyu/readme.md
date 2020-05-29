@@ -54,14 +54,13 @@ def high(x):
     words=x.split(' ')
     list = []
     for i in words:
-        scores = [sum([ord(char) - 96 for char in i])]
+        scores = [sum([ord(char) - 96 for char in i])]  # all char value in ascci start from 97. like a=97, b=98 etc.
         list.append(scores)
     return words[list.index(max(list))]
 
-
 ```
 
-` Here split(), max(), sum(), index() and lamda expresion concepts are being used. `
+` Here ord(), split(), max(), sum(), index() and lamda expresion concepts are being used. `
 
 
 ##### [Problem link](https://www.codewars.com/kata/57eb8fcdf670e99d9b000272/train/python 'Codewar Problem')
