@@ -1,3 +1,4 @@
+
 def rgb(r, g, b):
     if r < 0:
         r = 0
@@ -12,9 +13,11 @@ def rgb(r, g, b):
     elif b > 255:
         b = 255
 
-    value = hex(r)[2:].zfill(2) + hex(g)[2:].zfill(2) + hex(b)[2:].zfill(2)
+    value = hex(r)[2:].zfill(2) + hex(g)[2:].zfill(2) + hex(b)[2:].zfill(2) # zfill() include 0 infront of string.
 
     return value.upper()
 
 
 print(rgb(-20,275,125))
+
+
