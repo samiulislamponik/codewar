@@ -1,3 +1,4 @@
+
 def permutations(string):
 
     from itertools import permutations
@@ -12,15 +13,7 @@ def permutations(string):
     return list(new_li)
 
 
-
-
-
-
-
-
-
-
-
-
-
 print(permutations('aabb'))
+
+
+
