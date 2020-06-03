@@ -100,3 +100,27 @@ def rgb(r, g, b):
 
 
 
+
+## [Permutations](https://github.com/samiulislamponik/codewar/blob/master/6kyu/Permutations.py  'Problem-4')
+
+```python
+Solve:
+
+import itertools
+
+def permutations(string):
+    return list("".join(p) for p in set(itertools.permutations(string)))
+
+
+```
+
+` Here permutations(), join() and set() concepts are being used. `
+
+
+##### [Problem link](https://www.codewars.com/kata/5254ca2719453dcc0b00027d/python 'Codewar Problem')
+
+
+
+
+
+
